@@ -1,14 +1,36 @@
 *{
-	background-image: url(download.jpg);
+	/* no se ponen los fondos aquí... */
 	/*background-size: cover;*/
 }
 
 body{
+	background-image: url(download.jpg);
 	text-align: center;
-	margin: 20% auto;
+	margin: 18% auto;
 }
 
 #anuncio{
-	color: white;
-	background-color: red;
+	font-family: 'Architects Daughter', cursive;
+	color: #62EAEA;
+	font-size: 70px;
+	width: 380px;
+	margin-left: 36%;
 }
+
+#demo{
+	font-family: 'Unlock', cursive;
+	font-size: 45px;
+	width: 15%;
+	-moz-border-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: whitesmoke;
+}
+
+#demo:hover{
+	background-color: black;
+	color: whitesmoke;
+	transition:background-color 0.4s;
+	transition:color 0.5s;
+}
+
